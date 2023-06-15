@@ -1,3 +1,52 @@
 body {
   background: papayawhip;
 }
+body {
+  background: blanchedalmond;
+}
+.container {
+  display: flex;
+  flex-direction: column;/*set flex-direction to column */
+  justify-content:center;
+  height: 375px;
+  background-color: #f3f1f1;
+}
+
+.a, .b, .c .d .e .f {
+  flex-basis: 100px;
+  margin-bottom: 10px;
+  width: 175px;
+  border: 1px solid #000; /* Add a 1px solid black border */
+  display: flex; /* Add display:flex to center the text vertically */
+  align-items: center; /* Center the text vertically */
+  justify-content: center; /* Center the text horizontally */
+  font-size: 35px; /* Change the font size */
+}
+
+
+
+.a {
+  background-color: rgb(215, 215, 215);
+}
+
+.b {
+  background-color: rgb(215, 215, 215);
+  flex-basis: 400px;
+}
+
+.c {
+  background-color: rgb(215, 215, 215);
+}
+.d {
+  background-color: rgb(215, 215, 215);
+}
+
+.e {
+  background-color: rgb(215, 215, 215);
+  flex-basis: 400px;
+}
+
+.f {
+  background-color: rgb(215, 215, 215);
+}
+
