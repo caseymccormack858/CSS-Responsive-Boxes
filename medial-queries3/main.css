@@ -7,7 +7,7 @@ body {
   justify-content: center; /* Center the flex items horizontally */
   align-items: center; /* Center the flex items vertically */
   height: 400px;
-  background-color: #c2c2c2;
+  background-color: #eeeeee;
 }
 
 .container > div {
