@@ -14,15 +14,15 @@ body {
 }
 
 .a {
-  background-color: rgb(108, 96, 96);
+  background-color: rgb(190, 190, 190);
 }
 
 .b {
-  background-color: rgb(64, 66, 64);
+  background-color: rgb(168, 168, 168);
   flex-basis: 400px;
 }
 
 .c {
-  background-color: rgb(31, 31, 32);
+  background-color: rgb(175, 175, 183);
 }
 
