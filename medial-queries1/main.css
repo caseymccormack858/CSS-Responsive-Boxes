@@ -5,14 +5,14 @@ body {
   display: flex;
   flex-direction: column;/*set flex-direction to column */
   justify-content:center;
-  height: 200px;
+  height: 400px;
   background-color: #f0f0f0;
 }
 
 .a, .b, .c {
   flex-basis: 100px;
   margin-bottom: 10px;
-  width: 200px;
+  width: 175px;
   border: 1px solid #000; /* Add a 1px solid black border */
   display: flex; /* Add display:flex to center the text vertically */
   align-items: center; /* Center the text vertically */
