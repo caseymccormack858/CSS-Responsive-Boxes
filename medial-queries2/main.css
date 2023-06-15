@@ -6,8 +6,8 @@ body {
 }
 .container {
   display: flex;
-  flex-direction: column;/*set flex-direction to column */
   justify-content:center;
+  flex-direction: column;
   height: 375px;
   background-color: #f3f1f1;
 }
@@ -16,6 +16,7 @@ body {
   flex-basis: 100px;
   margin-bottom: 10px;
   width: 175px;
+  flex-direction: column;
   border: 1px solid #000; /* Add a 1px solid black border */
   display: flex; /* Add display:flex to center the text vertically */
   align-items: center; /* Center the text vertically */
@@ -26,6 +27,7 @@ body {
   flex-basis: 100px;
   margin-bottom: 10px;
   width: 175px;
+  flex-direction: row;
   border: 1px solid #000; /* Add a 1px solid black border */
   display: flex; /* Add display:flex to center the text vertically */
   align-items: center; /* Center the text vertically */
