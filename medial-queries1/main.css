@@ -18,6 +18,7 @@ body {
 
 .b {
   background-color: rgb(64, 66, 64);
+  flex-basis: 400px;
 }
 
 .c {
