@@ -6,7 +6,6 @@ body {
   flex-wrap: wrap; /* Allow flex items to wrap to a new line */
   justify-content: flex-start; /* Center the flex items horizontally */
   align-items: flex-start; /* Center the flex items vertically */
-  height: 600px;
   background-color: #eeeeee;
 }
 
