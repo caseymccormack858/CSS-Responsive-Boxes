@@ -3,7 +3,7 @@ body {
 }
 .container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;/*set flex-direction to column */
   height: 200px;
   background-color: #f0f0f0;
 }
