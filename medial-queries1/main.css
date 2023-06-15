@@ -12,12 +12,12 @@ body {
 .a, .b, .c {
   flex-basis: 100px;
   margin-bottom: 10px;
-  width: 300px;
+  width: 200px;
   border: 1px solid #000; /* Add a 1px solid black border */
   display: flex; /* Add display:flex to center the text vertically */
   align-items: center; /* Center the text vertically */
   justify-content: center; /* Center the text horizontally */
-  font-size: 16px; /* Change the font size */
+  font-size: 36px; /* Change the font size */
 }
 }
 
