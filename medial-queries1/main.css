@@ -13,7 +13,9 @@ body {
   flex-basis: 100px;
   margin-bottom: 10px;
   width: 300px;
+  border: 1px solid #000; /* Add a 1px solid black border */
 }
+
 
 .a {
   background-color: rgb(190, 190, 190);
