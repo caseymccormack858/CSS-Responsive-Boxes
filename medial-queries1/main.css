@@ -4,13 +4,14 @@ body {
 .container {
   display: flex;
   flex-direction: column;/*set flex-direction to column */
-  justify-content: space-between;
+  justify-content:center;
   height: 200px;
   background-color: #f0f0f0;
 }
 
 .a, .b, .c {
   flex-basis: 100px;
+  margin-bottom: 10px;
 }
 
 .a {
