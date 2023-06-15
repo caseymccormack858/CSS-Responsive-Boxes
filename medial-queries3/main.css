@@ -4,8 +4,8 @@ body {
 .container {
   display: flex;
   flex-wrap: wrap; /* Allow flex items to wrap to a new line */
-  justify-content: center; /* Center the flex items horizontally */
-  align-items: center; /* Center the flex items vertically */
+  justify-content: flex-start; /* Center the flex items horizontally */
+  align-items: flex-start; /* Center the flex items vertically */
   height: 600px;
   background-color: #eeeeee;
 }
@@ -20,6 +20,10 @@ body {
   font-size: 16px;
   height: 120px; /* Increase the height of the boxes */
 
+}
+
+.a {
+  order: -1; /* Set a negative order to place A at the beginning */
 }
 
 @media (max-width: 600px) {
