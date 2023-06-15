@@ -1,3 +1,26 @@
 body {
   background: blanchedalmond;
 }
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  background-color: #f0f0f0;
+}
+
+.a, .b, .c {
+  flex-basis: 100px;
+}
+
+.a {
+  background-color: rgb(108, 96, 96);
+}
+
+.b {
+  background-color: rgb(64, 66, 64);
+}
+
+.c {
+  background-color: rgb(31, 31, 32);
+}
+
