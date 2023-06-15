@@ -28,9 +28,9 @@ body {
   margin-bottom: 10px;
   width: 75px;
   height: 75px;
-  flex-direction: row;
   border: 1px solid #000; /* Add a 1px solid black border */
   display: flex; /* Add display:flex to center the text vertically */
+  flex-direction: row;
   align-items: center; /* Center the text vertically */
   justify-content: center; /* Center the text horizontally */
   font-size: 35px; /* Change the font size */
