@@ -12,6 +12,7 @@ body {
 .a, .b, .c {
   flex-basis: 100px;
   margin-bottom: 10px;
+  width: 600px;
 }
 
 .a {
