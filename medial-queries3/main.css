@@ -1,3 +1,28 @@
 body {
   background: peachpuff;
 }
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Allow flex items to wrap to a new line */
+  justify-content: center; /* Center the flex items horizontally */
+  align-items: center; /* Center the flex items vertically */
+  height: 400px;
+  background-color: #f0f0f0;
+}
+
+.container > div {
+  flex: 1 0 200px; /* Set a flexible width of 200px for each item */
+  margin: 10px; /* Add some margin around each item */
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  .container > div {
+    flex-basis: calc(50% - 20px); /* Adjust the width to 50% of the container minus margin */
+  }
+}
+
